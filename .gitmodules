@@ -1,0 +1,6 @@
+[submodule "Mandelbrot"]
+	path = Mandelbrot
+	url = git@github.com:lednikita0481/Mandelbrot.git
+[submodule "Alpha-Blending"]
+	path = Alpha-Blending
+	url = git@github.com:lednikita0481/Alpha-Blending.git
