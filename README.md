@@ -34,7 +34,7 @@ Table, in the cells of which FPS (frames per second), showing the amount of plan
 |    -O3      |      11.98        |     51.00      |
 |   -Ofast    |      13.29        |     54.50      |
 
-We see, that regardless compiler flag using SIMD instructions speeds up the calculations approximately 4 times. We also can conclude that GCC compiler can't improve your code using SIMD instructions, so you may not rely on its' optimisation in the case of speeding up the code with plenty of the same calculations.
+We see, that regardless compiler flag using SIMD instructions speeds up the calculations approximately 4 times. We also can conclude that GCC compiler can't improve your code using SIMD instructions, so you may not rely only on its' optimisation in the case of speeding up the code with plenty of the same calculations.
 
 
 
