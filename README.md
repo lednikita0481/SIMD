@@ -14,7 +14,7 @@ We have a plane with X and Y coordinats. For every dot of the plane we calculate
 - $Y_{n+1} = 2 \cdot X_n \cdot Y_n + Y_0$
 
 We stop calculatings if we reach 255 iteration, or if position of the last calculated sequence point is located farther from the center than the maximum distance:
-- $X_{n}^2 + Y_{n}^2 >$ &MaxDistance^2$
+- $X_{n}^2 + Y_{n}^2 > MaxDistance^2$
 
 In my example $MaxDistance$ = 10
 
