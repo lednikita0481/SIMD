@@ -16,7 +16,7 @@ We have a plane with X and Y coordinats. For every dot of the plane we calculate
 We stop calculatings if we reach 255 iteration, or if position of the last calculated sequence point is located farther from the center than the maximum distance:
 - $X_{n}^2 + Y_{n}^2 > MaxDistance^2$
 
-In my example $MaxDistance$ = 10
+In my example $MaxDistance = 10&
 
 After the end of that step we can determine the color of the dot we started from. I decided to use just $2 \cdot C$ for every standart color of the pixel (red, green, blue), getting white color with different brightness, where $C$ is amount of iterations before sequence calculations were finished.
 
