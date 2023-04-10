@@ -22,7 +22,7 @@ After the end of that step we can determine the color of the dot we started from
 
 ### Analysing the perfromance
 
-Two algorithms were implemented: calculations for every single dot and calculations for a vector of 8 dots next to each other using __m256 variables. Now we compare the speed of the calculations with standart method and with using SIMD instructions. Also compare for different optimisation flags of GCC compiler:
+Two algorithms were implemented: calculations for every single dot and calculations for a vector of 8 dots next to each other using __m256 variables (SIMD registers). Now we compare the speed of the calculations with standart method and with using SIMD instructions. Also compare for different optimisation flags of GCC compiler:
 
 Table, in the cells of which FPS (frames per second), showing the amount of planes that can be handled per second depending on compiler's flag and variant of the algorithm (drawing is turned off, value is counted in the short time after program's work started (over some time OS's resources are being redistributed and program works faster)):
 
