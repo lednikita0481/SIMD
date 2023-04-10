@@ -1,6 +1,8 @@
 # SIMD
 These programs were made for checking the efficiency of using SIMD instructions in calculations. For that purpose, Mandelbrot set and classical alpha blending were implemented.
 
+SIMD (Single Instruction, Multiple Data) is a technique that allows a single instruction to be executed on multiple pieces of data at the same time with help of special processor's module, thus improving performance. 
+
 ## Mandelbrot set
 
 <img src="img/mandelbrot_img.png">
