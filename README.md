@@ -73,4 +73,4 @@ We see, that combining SIMD instructions leads to speeding up for approximately 
 
 # Conclusion
 
-Using SIMD instructions in the code with plenty of the same calculations can speed it up many times. Code become a bit harder to read, but the results of getting over yourself and writing more effective code are impressing!
+Using SIMD instructions in the code with plenty of the same calculations can speed it up many times. Code becomes a bit harder to read, but the results of getting over yourself and writing more effective code are impressing!
